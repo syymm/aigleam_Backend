@@ -4,12 +4,10 @@ import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 import lombok.Data;
 
-import java.io.Serializable;
-
 @Data
 @JsonSerialize
 @JsonInclude(JsonInclude.Include.NON_NULL)
-public class UserLoginData {
+public class User {
 
     private String username;
     private String password;
