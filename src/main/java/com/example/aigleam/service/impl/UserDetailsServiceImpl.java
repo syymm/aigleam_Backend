@@ -1,4 +1,4 @@
-package com.example.aigleam.service;
+package com.example.aigleam.service.impl;
 
 import com.example.aigleam.data.User;
 import com.example.aigleam.mapper.UserMapper;

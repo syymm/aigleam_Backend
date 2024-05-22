@@ -15,7 +15,7 @@ import java.util.Collections;
 @JsonInclude(JsonInclude.Include.NON_NULL)
 public class User implements UserDetails {
 
-    private int id;
+    private Long id;
     private String username;
     private String password;
 

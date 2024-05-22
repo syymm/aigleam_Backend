@@ -13,4 +13,11 @@ public class Result<T> {
     private int code;
     private String msg;
 
+    // 构造函数
+    public Result(T data, int code, String msg) {
+        this.data = data;
+        this.code = code;
+        this.msg = msg;
+    }
+
 }
