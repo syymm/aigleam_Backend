@@ -4,7 +4,7 @@ import com.example.aigleam.data.Result;
 import com.example.aigleam.data.User;
 import com.example.aigleam.data.UserData;
 import com.example.aigleam.service.LoginService;
-import com.example.aigleam.util.JwtUtil;
+import com.example.aigleam.utils.JwtUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;

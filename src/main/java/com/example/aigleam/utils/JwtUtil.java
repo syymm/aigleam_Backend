@@ -1,4 +1,4 @@
-package com.example.aigleam.util;
+package com.example.aigleam.utils;
 
 import io.jsonwebtoken.JwtBuilder;
 import io.jsonwebtoken.Jwts;
